@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/estructura-proyecto", "dest": "/api/estructura-proyecto.js" },
+    { "src": "/crear-api", "dest": "/api/crear-api.js" },
+    { "src": "/ui-ux-diseno", "dest": "/api/ui-ux-diseno.js" },
+    { "src": "/generar-docs", "dest": "/api/generar-docs.js" },
+    { "src": "/organizar-tareas", "dest": "/api/organizar-tareas.js" },
+    { "src": "/automatizar-flujos", "dest": "/api/automatizar-flujos.js" }
+  ]
+}
